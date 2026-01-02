@@ -36,6 +36,8 @@ import alumni from './assets/tech_logo/alumni.png';
 import grabsaver from './assets/tech_logo/grabsaver.png';
 import interview from  './assets/tech_logo/interview.png';
 import portfolio from './assets/tech_logo/portfolio.png';
+import agri from './assets/tech_logo/agri.png';
+import resume from './assets/tech_logo/resume.png';
 
 // Education Section Logo's
 import mgm_logo from './assets/tech_logo/mgm_logo.jpeg';
@@ -95,7 +97,7 @@ export const experiences = [
     img: zidio_d,
     role: "Fullstack Developer",
     company: "Webverse Digital",
-    date: "April 2024 - Present",
+    date: "August 2025 - November 2025",
     desc: "During my internship at Zidio Development, I worked as a Web Development Intern, where I developed an Excel Analytics Platform using the MERN stack. The project enables users to securely upload Excel or CSV files, process the data, and visualize it through interactive 2D and 3D charts. ilwind CSS, and built efficient backend APIs for data analytics. This experience strengthened my skills in full-stack development, data visualization, and real-world project deployment. ",
     skills: [
       "HTML",
@@ -187,6 +189,26 @@ export const projects = [
       tags: ["React JS", "Node.js", "MongoDB", "Express",  "JavaScript"],
       github: "https://github.com/Shivani544/Alumni_Management_System",
       webapp: "/",
+    },
+    {
+      id: 4,
+      title: "AI-Driven Smart Seeding",
+      description:
+        "The AI-Driven Smart Seeding Decision Support System uses machine learning and real-time weather data to recommend accurate seed quantity and proper spacing for different crops. This helps reduce seed wastage, lower farming costs, and improve crop yield through precision agriculture.",
+      image: agri,
+      tags: ["React JS", "Node.js","Express", "Tailwind CSS","JavaScript"],
+      github: "https://github.com/Shivani544/Smart_seeding_DSS",
+      webapp: "https://smart-seeding-dss.onrender.com/",
+    },
+    {
+      id: 5,
+      title: "Resume Builder",
+      description:
+        "The Resume Builder is a web application that enables users to create, manage, and download professional resumes through a guided interface. It simplifies resume creation by automating formatting and providing ready-to-use templates.",
+      image: resume,
+      tags: ["React JS", "Node.js","Express", "Tailwind CSS","JavaScript","MongoDB"],
+      github: "https://github.com/Shivani544/Resume-Builder",
+      webapp: "https://resume-builder-frontend-3y6h.onrender.com/",
     },
     
   ];  
