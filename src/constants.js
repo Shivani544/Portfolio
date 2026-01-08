@@ -176,7 +176,7 @@ export const projects = [
       image: interview,
       tags: ["React JS", "Node.js", "MongoDB", "Express",  "JavaScript"],
       github: "https://github.com/Shivani544/InterviewHelper.ai",
-      webapp: "https://interviewhelper-ai-frontend.onrender.com/",
+      webapp: "https://interviewhelper-ai.onrender.com",
     },
     
   
