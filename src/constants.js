@@ -21,6 +21,7 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import zidio_d from './assets/tech_logo/zidio_d.jpeg';
+import softcadd_logo from './assets/tech_logo/softcadd_logo.jpeg';
 
 // Project Section Logo's
 import githubdetLogo from './assets/tech_logo/vercel.png';
@@ -96,7 +97,7 @@ export const experiences = [
     id: 0,
     img: zidio_d,
     role: "Fullstack Developer",
-    company: "Webverse Digital",
+    company: "Zidio Development",
     date: "August 2025 - November 2025",
     desc: "During my internship at Zidio Development, I worked as a Web Development Intern, where I developed an Excel Analytics Platform using the MERN stack. The project enables users to securely upload Excel or CSV files, process the data, and visualize it through interactive 2D and 3D charts. ilwind CSS, and built efficient backend APIs for data analytics. This experience strengthened my skills in full-stack development, data visualization, and real-world project deployment. ",
     skills: [
@@ -108,6 +109,29 @@ export const experiences = [
       "Node JS",
       "Tailwind CSS",
       "MongoDb",
+      
+     
+    ],
+  },
+  {
+    id: 1,
+    img: softcadd_logo,
+    role: "Software Development Intern",
+    company: "Softcadd Technologies",
+    date: "November 2025- Present",
+    desc: "Work on real-world software projects using modern technologies, focusing on feature development, debugging, and maintaining code quality. Gain experience with industry-standard workflows and collaborate with experienced professionals. The environment supports continuous learning, technical growth, and professional development.",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React JS",
+      "typescript",
+     
+      "Node JS",
+      "express JS",
+      "Tailwind CSS",
+      "MongoDb",
+      "supabase",
       
      
     ],
@@ -219,7 +243,7 @@ export const projects = [
       img: mgm_logo,
       school: "MGM's College Of Engineering, Nanded",
       date: "Aug 2022 - Present",
-      grade: "7.04 CGPA",
+      grade: "7.24 CGPA",
       desc: "I am in the final year of my B.Tech in Computer Science and Engineering at MGM's College of Engineering, Nanded. Over the course of my studies, I have built a strong grasp of key computer science areas including Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. Beyond academics, I’ve actively engaged in coding competitions, technical workshops, and various student-led tech events, all of which have sharpened my hands-on abilities and kept me in touch with evolving industry trends. My journey at MGM has been instrumental in developing both my technical skill set and my overall professional outlook.",
       degree: "Bachelor of Technology - BTech (Computer Science and Engineering)",
     },
